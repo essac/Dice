@@ -1,0 +1,95 @@
+/*Uppgift 1 - del 2
+#time {
+    font-family: "Tahoma";
+     font-size: 18px;
+     color: white;
+    background-color: black;
+    width: 600px;
+    border-left: 5px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+*/
+
+
+/*Uppgift 5 - del 4
+#randomBackground{
+    width: 100px;
+    height: 100px;    
+}
+ */
+
+
+ /*Uppgift 5 - del 4
+ #resultContainer{
+    margin-top: 20px;
+ }
+ table, th, td {
+    border: 1px solid black;
+  } */
+
+
+  /*Inlämningsuppgift 2.1*/
+ #animatedBtn {
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    background: none;
+    background-size: contain;
+    transition: background 0.2s, opacity 1s;
+  }
+  
+  .animated {
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .dice {
+    -webkit-animation-name: dice;
+    animation-name: dice;
+  }
+  
+  @keyframes dice {
+    from {
+      -webkit-transform: none;
+      transform: none;
+      left: -250px;
+    }
+    15% {
+      -webkit-transform: translate3d(-55%, 0, 0) rotate3d(0, 0, 1, -100deg);
+      transform: translate3d(-55%, 0, 0) rotate3d(0, 0, 1, -100deg);
+    }
+    30% {
+      -webkit-transform: translate3d(50%, 0, 0) rotate3d(0, 0, 1, 300deg);
+      transform: translate3d(50%, 0, 0) rotate3d(0, 0, 1, 300deg);
+    }
+    45% {
+      -webkit-transform: translate3d(-51%, 0, 0) rotate3d(0, 0, 1, -10deg);
+      transform: translate3d(-51%, 0, 0) rotate3d(0, 0, 1, -10deg);
+    }
+    60% {
+      -webkit-transform: translate3d(50%, 0, 0) rotate3d(0, 0, 1, -20deg);
+      transform: translate3d(50%, 0, 0) rotate3d(0, 0, 1, -20deg);
+    }
+    75% {
+      -webkit-transform: translate3d(-50%, 0, 0) rotate3d(0, 0, 1, -100deg);
+      transform: translate3d(-50%, 0, 0) rotate3d(0, 0, 1, -100deg);
+    }
+    to {
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  #copyright{
+    margin-top: 550px;
+ }
+
+ 
